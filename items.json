@@ -1,42 +1,58 @@
 {
-  "music": [
+  "Interior": [
     {
-      "id": 1,
-      "name": "Album 1",
-      "price": 1299,
-      "imgName": "Album 1.png"
+      "id": 7,
+      "name": "Seat Cover 1",
+      "price": 16899,
+      "imgName": "Seat Cover 1.png"
     },
     {
-      "id": 2,
-      "name": "Album 2",
-      "price": 1499,
-      "imgName": "Album 2.png"
-    },
-    {
-      "id": 3,
-      "name": "Album 3",
-      "price": 999,
-      "imgName": "Album 3.png"
-    },
-    {
-      "id": 4,
-      "name": "Album 4",
-      "price": 1999,
-      "imgName": "Album 4.png"
+      "id": 8,
+      "name": "Seat Cover 2",
+      "price": 16899,
+      "imgName": "Seat Cover 2.png"
     }
   ],
-  "merch": [
+  "Exterior": [
     {
-      "id": 5,
-      "name": "T-Shirt",
-      "price": 1999,
-      "imgName": "Shirt.png"
+      "id": 9,
+      "name": "Grille Guard 1",
+      "price": 61499,
+      "imgName": "Grille Guard 1.png"
     },
     {
-      "id": 6,
-      "name": "Coffee Cup",
-      "price": 699,
-      "imgName": "Cofee.png"
+      "id": 10,
+      "name": "Car Cover 1",
+      "price": 8599,
+      "imgName": "Car Cover 1.png"
+    }
+  ],
+  "Wheels": [
+    {
+      "id": 11,
+      "name": "Wheel 1",
+      "price": 28699,
+      "imgName": "Wheel 1.png"
+    },
+    {
+      "id": 12,
+      "name": "Wheel 2",
+      "price": 19999,
+      "imgName": "Wheel 2.png"
+    }
+  ],
+  "Headlights & Lighting": [
+    {
+      "id": 13,
+      "name": "Headlight 1",
+      "price": 15199,
+      "imgName": "Headlight 1.png"
+    },
+    {
+      "id": 14,
+      "name": "Headlight 2",
+      "price": 22399,
+      "imgName": "Headlight 2.png"
     }
   ]
 }
