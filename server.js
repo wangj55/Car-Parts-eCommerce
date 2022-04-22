@@ -1,10 +1,11 @@
-if (process.env.NODE_ENV !== "production") {
-    require('dotenv').load()
+if (process.env.NODE_ENV !== "production") { // a production environment contains just the final version of the product
+    require('dotenv').load() // dotenv is a zero-dependency module that loads environment variables from a .env file into process.env
 }
 
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY
 const stripePublicKey = process.env.STRIPE_PUBLIC_KEY
 
+// include modules
 const express = require('express')
 const res = require('express/lib/response')
 const app = express()
@@ -22,7 +23,7 @@ app.get('/store', function (req, res) {
         } else {
             res.render('store.ejs', {
                 stripePublicKey: stripePublicKey,
-                items: JSON.parse(data)
+                items: JSON.parse(data) // inject data into template: store.ejs
             })
         }
     })
@@ -60,4 +61,4 @@ app.post('/purchase', function (req, res) {
     })
 })
 
-app.listen(3000) // localhost:3000
+app.listen(8080)
