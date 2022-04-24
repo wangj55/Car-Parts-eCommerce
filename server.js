@@ -35,7 +35,10 @@ app.post('/purchase', function (req, res) {
             res.status(500).end()
         } else {
             const itemsJson = JSON.parse(data)
-            const itemsArray = itemsJson.music.concat(itemsJson.merch)
+            var itemsArray = []
+            Object.keys(itemsJson).forEach(function(key) {
+                itemsArray = itemsArray.concat(itemsJson[key])
+            })
             let total = 0
             req.body.items.forEach(function (item) {
                 const itemJson = itemsArray.find(function (i) {
