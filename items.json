@@ -27,7 +27,7 @@
       "imgName": "Car Cover 1.png"
     }
   ],
-  "Wheels": [
+  "Wheels and Tires": [
     {
       "id": 11,
       "name": "Wheel 1",
@@ -54,5 +54,101 @@
       "price": 22399,
       "imgName": "Headlight 2.png"
     }
+  ],
+  "Mirrors": [
+    {
+      "id": 15,
+      "name": "Mirror 1",
+      "price": 1599,
+      "imgName": "Day:Night View Mirror.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Mirror 2",
+      "price": 1475,
+      "imgName": "Baby Adjustable Car Mirror.jpeg"
+    }
+  ],
+  "Tools & Garage": [
+    {
+      "id": 17,
+      "name": "Spare Tire Tool Kit",
+      "price": 11899,
+      "imgName": "Spare Tire Tool Kit.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Engine Oil Filter Wrench",
+      "price": 999,
+      "imgName": "Engine Oil Filter Wrench.png"
+    },
+    {
+      "id": 19,
+      "name": "Autometer",
+      "price": 26550,
+      "imgName": "Autometer.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Battery Tester",
+      "price": 7200,
+      "imgName": "Battery Tester.jpeg"
+    }
+  ],
+  "Brakes, Suspension & Steering": [
+    {
+      "id": 21,
+      "name": "Brake Disc 1",
+      "price": 6755,
+      "imgName": "Brake Disc 1.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Brake Disc 2",
+      "price": 6075,
+      "imgName": "Brake Disc 2.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Brake Pad Sensor",
+      "price": 3049,
+      "imgName": "Brake Pad Sensor.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Brake Bleed Screw",
+      "price": 499,
+      "imgName": "Brake Bleed Screw.jpg"
+    }
+  ],
+  "Engine & Drivetrain": [
+    {
+      "id": 25,
+      "name": "Universal Air Filter",
+      "price": 3599,
+      "imgName": "Universal Air Filter.jpeg"
+    },
+    {
+      "id": 26,
+      "name": "Cold Air Intake",
+      "price": 34900,
+      "imgName": "Cold Air Intake.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Breather Hose",
+      "price": 1819,
+      "imgName": "Breather Hose.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Throttle Body Spacer",
+      "price": 12449,
+      "imgName": "Throttle Body Spacer.jpg"
+    }
   ]
 }
+
+
+
+
