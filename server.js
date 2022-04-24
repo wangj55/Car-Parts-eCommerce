@@ -10,7 +10,7 @@ const express = require('express')
 const res = require('express/lib/response')
 const app = express()
 const fs = require('fs')
-const stripe = require('stripe')(stripeSecretKey)
+const stripe = require('stripe')(stripePublicKey)
 
 app.set('view engine', 'ejs')
 app.use(express.json())
